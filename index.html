@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Mobile</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        Youtube
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <section class="player">
+      <!-- <video controls src="video/worlds.MP4"></video> -->
+      <iframe
+        width="1440"
+        height="529"
+        src="https://www.youtube.com/embed/yCBqfY8ZXRE"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <!-- video info -->
+    <div class="infoAndUpNext">
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#SKT</li>
+            <li>#world</li>
+            <li>#im_100_door</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              SKT vs RNG | GROUP STAGE Day 2 H/L 10.13 | 2019 Worlds
+              Championship SKT vs RNG | GROUP STAGE Day 2 H/L 10.13 | 2019
+              Worlds Championship SKT vs RNG | GROUP STAGE Day 2 H/L 10.13 |
+              2019 Worlds Championship SKT vs RNG | GROUP STAGE Day 2 H/L 10.13
+              | 2019 Worlds Championship
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="channel">
+          <div class="metadata">
+            <img src="imgs/lck.jpg" />
+            <div class="info">
+              <span class="name">LCK</span>
+              <span class="subscribers">구독자 47.9만명</span>
+            </div>
+          </div>
+
+          <button class="subscribe">구독중</button>
+        </div>
+      </section>
+
+      <section class="upNext">
+        <span class="title">다음 동영상</span>
+        <ul>
+          <li class="item">
+            <div class="img">
+              <img src="imgs/1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >RNG vs SKT | GROUP STAGE Day 7 H/L 10.19 | 2019 Worlds
+                Championship</span
+              >
+              <span class="name">LCK</span>
+              <span class="views">조회수 712,561회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="imgs/2.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >SKT vs G2 | Semifinals Day 2 H/L 11.03 | 2019 Worlds
+                Championship</span
+              >
+              <span class="name">LCK</span>
+              <span class="views">조회수 414,773회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="imgs/3.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="title"
+                >FPX vs G2 | Finals H/L 11.10 | 2019 Worlds Championship</span
+              >
+              <span class="name">LCK</span>
+              <span class="views">조회수 398,561회</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
